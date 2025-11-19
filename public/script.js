@@ -1,4 +1,4 @@
- const apiUrl = 'http://localhost:5000/api/books';
+const apiUrl = `${window.BASE_URL}/api/books`;
 
     let editingBookId = null;
 
