@@ -1,0 +1,112 @@
+body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #f8f9fa;
+        padding: 40px;
+        margin: 0;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #343a40;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: auto;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 30px;
+      }
+
+      th,
+      td {
+        padding: 12px 15px;
+        text-align: left;
+      }
+
+      thead {
+        background-color: #007bff;
+        color: white;
+      }
+
+      tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      input,
+      button {
+        padding: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      input:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+
+      .btn {
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+      }
+
+      .btn:hover {
+        opacity: 0.9;
+      }
+
+      .btn-add {
+        background-color: #28a745;
+        color: white;
+        border: none;
+      }
+
+      .btn-update {
+        background-color: #ffc107;
+        color: white;
+        border: none;
+      }
+
+      .btn-cancel {
+        background-color: #6c757d;
+        color: white;
+        border: none;
+      }
+
+      .btn-edit {
+        background-color: #17a2b8;
+        color: white;
+        border: none;
+      }
+
+      .btn-delete {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+      }
+
+      .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+      }
+
+      .form-row input {
+        flex: 1;
+        margin-right: 10px;
+        min-width: 150px;
+      }
+
+      .actions button {
+        margin-right: 5px;
+      }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Manager</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>📚 Book Manager</h1>
+
+      <div id="formContainer">
+        <div class="form-row">
+          <input type="text" id="title" placeholder="Book Title" />
+          <input type="text" id="author" placeholder="Author" />
+          <input
+            type="number"
+            id="publishedYear"
+            placeholder="Published Year"
+          />
+        </div>
+        <div class="form-row">
+          <button class="btn btn-add" id="addBtn">Add Book</button>
+          <button class="btn btn-update" id="updateBtn" style="display: none">
+            Update Book
+          </button>
+          <button class="btn btn-cancel" id="cancelBtn" style="display: none">
+            Cancel
+          </button>
+        </div>
+      </div>
+
+      <table id="booksTable">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+            <th style="text-align: center">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ข้อมูลหนังสือจะมาแสดงตรงนี้ -->
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
